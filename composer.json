@@ -1,0 +1,25 @@
+{
+  "name": "ltd-beget/beget-network",
+  "description": "IP Network Management library",
+  "minimum-stability": "stable",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Constantin Conovaloff",
+      "email": "constantin@conovaloff.com",
+      "homepage": "https://github.com/ConConovaloff"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "4.6.6"
+  },
+  "keywords": [
+    "Ip",
+    "Network Management"
+  ],
+  "homepage": "https://github.com/LTD-Beget/network",
+  "type": "library",
+  "autoload": {
+    "psr-4": {"BegetNetwork\\": "src/"}
+  }
+}
