@@ -1,5 +1,5 @@
 {
-  "name": "ltd-beget/beget-network",
+  "name": "ltd-beget/network",
   "description": "IP Network Management library",
   "minimum-stability": "stable",
   "license": "Apache-2.0",
@@ -20,6 +20,9 @@
   "homepage": "https://github.com/LTD-Beget/network",
   "type": "library",
   "autoload": {
-    "psr-4": {"BegetNetwork\\": "src/"}
+    "psr-4": {"LTDBeget\\Network\\": "src/LTDBeget/Network"}
+  },
+  "autoload-dev": {
+    "psr-4": {"LTDBeget\\Network\\tests\\": "tests/"}
   }
 }
